@@ -1,3 +1,17 @@
+pisg (0.80~preview2-0utopia1) unstable; urgency=low
+
+  * Utopia respository build.
+  * New upstream preview release.
+  * debian/ changes:
+     - Set standards version to 3.9.8.
+     - Raise debhelper dependency to >= 9.
+     - Add myself to uploaders.
+     - install: remove gfx/ folder which no longer exists
+     - docs: install README.md instead of README (upstream renamed this)
+     - docs: drop pisg-doc.*, these no longer seem to exist.
+
+ -- James Lu <bitflip3@gmail.com>  Mon, 09 May 2016 16:27:23 -0700
+
 pisg (0.73-1) unstable; urgency=low
 
   * New upstream release
