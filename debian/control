@@ -1,0 +1,15 @@
+Source: pisg
+Section: net
+Priority: optional
+Maintainer: Julien Danjou <acid@debian.org>
+Build-Depends: debhelper (>> 5.0.0), docbook-utils
+Build-Depends-Indep: perl (>= 5.6)
+Standards-Version: 3.9.4
+
+Package: pisg
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Suggests: libtext-iconv-perl
+Description: Perl IRC Statistics Generator
+ A Perl script which takes IRC logfiles and turns them into nice looking
+ stats, which can be amusing to show to the users of your channel.

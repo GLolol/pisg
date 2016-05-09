@@ -1,0 +1,5 @@
+pisg usr/bin
+lang.txt usr/share/pisg
+layout usr/share/pisg
+gfx usr/share/pisg
+modules/* usr/share/perl5/
